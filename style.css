@@ -1,0 +1,105 @@
+html, body {
+ background-color:black;
+ color: white;
+   font-family:"Bebas Neue" ,serif;
+  margin: 1px;
+  margin-bottom: 30px;
+}
+ 
+header{
+ font-family:"Rowdies", sans-serif;
+  color:red;
+  display:flex;
+  border-bottom:solid 1px white;
+  position: relative;
+  margin: 20px;
+  font-size:80px;
+}
+
+p{
+  text-align: justify;  
+}
+
+.inicio{
+  backgroung: rgb(0,0,0);
+  margin: 20px;
+  padding:20px;
+  display: flex;
+  position: relative;
+  font-size: 30px;
+  border-radius: 50px;
+  box-shadow: 2px 5px 5px white;
+}
+
+.video{
+  margin-right: 50px;
+}
+
+.alinha{
+  margin-right:center;
+}
+
+.clipes{
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+
+}
+
+imag{
+  height:200px; 
+}
+  
+.outros{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+}
+  
+h3{
+  border-bottom:2px solid white;
+      
+  }  
+}
+
+.outros img{
+  opacity: 0.5;
+  gap: 10px;
+
+}
+
+.outros img:hover{
+  opacity: 1.0;
+  border: 3px solid red;
+  box-shadow: 2px 5px 5px grey;
+    
+}
+
+header img{
+  position:relative;
+  z-index: -1;
+  margin-left: 400px;
+}
+
+footer{
+  font-family:"Rowdies", sans-serif;
+  color:red;
+  padding-left: 450px;
+  background-color:grey;
+  position: fixed;
+  bottom:0
+  width: 100%;
+  height: 2em;
+  padding: 20px;
+  font-size: 1.5em;
+  display: block;
+  margin: 0 auto;
+  text_aling: center;
+  aling-context: center;
+  padding_left: 450px;
+  
+
+}
+
